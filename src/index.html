@@ -1,0 +1,223 @@
+<div class="container">
+  
+  <div class="title">
+    <div class="title__box">
+      <div class="title__line"></div>
+      <h1>Styleguide</h1>
+    </div>
+  </div>
+  
+    <section class="main-color">
+      <h2>Main colors</h2>
+      <h3>Primary</h3>
+      <div class="main-color__primary">
+        <div class="main-color__primary-color"></div>
+        <div class="main-color__primary-btn"><div class="main-color__water1"></div><div class="main-color__empty"></div></div>
+        <div class="main-color__pick-box1"></div>
+      </div>
+      <p id="primary">#456B8C</p>
+      <h3>Secondary</h3>
+      <div class="main-color__secondary">
+        <div class="main-color__secondary-color"></div>
+        <div class="main-color__secondary-btn"><div class="main-color__water2"></div><div class="main-color__empty"></div></div>
+        <div class="main-color__pick-box2"></div>
+      </div>
+      <p id="secondary">#FF638B</p>
+    </section>
+  
+    <section class="accent-color">
+      <h2>Accent colors</h2>
+      <h3>Info</h3>
+      <div class="accent-color__info"></div>
+      <p>#6AB2FF</p>
+      <h3>Success</h3>
+      <div class="accent-color__success"></div>
+      <p>#ADE46C</p>
+      <h3>Warning</h3>
+      <div class="accent-color__warning"></div>
+      <p>#FFC666</p>
+      <h3>Danger</h3>
+      <div class="accent-color__danger"></div>
+      <p>#FF405D</p>
+    </section>
+  
+  <section class="neutral-color">
+    <h2>Neutral colors</h2>
+    
+    <div class="neutral-color__white"></div>
+    <p class="color-1">#FFFFFF</p>
+    <div class="neutral-color__grey-light-1"></div>
+    <p class="color-2">#F5F6FA</p>
+    <div class="neutral-color__grey-light-2"></div>
+    <p class="color-3">#E4E8F1</p>
+    <div class="neutral-color__grey-light-3"></div>
+    <p class="color-4">#D1D7E5</p>
+    
+    <div class="neutral-color__grey-dark-1"></div>
+    <p class="color-5">#B1BACE</p>
+    <div class="neutral-color__grey-dark-2"></div>
+    <p class="color-6">#7C8493</p>
+    <div class="neutral-color__grey-dark-3"></div>
+    <p class="color-7">#484E5A</p>
+    <div class="neutral-color__black"></div>
+    <p class="color-8">#373737</p>
+  </section>
+  
+  <section class="components">
+    <h2>UI components</h2>
+    
+    <div class="chip">
+      <h3>Chip</h3>
+      
+      <div class="chip__container">
+        <div class="chip__image"><i class="material-icons">person</i></div>
+        <p class="chip__name">Isabelle Jason</p>
+      </div>
+    </div>
+    
+    <div class="switch">
+      <h3>Switch</h3>
+      
+      <div class="switch__1">
+        <input id="switch-1" type="checkbox">
+        <label for="switch-1"></label>
+      </div>
+      
+      <div class="switch__2">
+        <input id="switch-2" type="checkbox" checked>
+        <label for="switch-2"></label>
+      </div>
+    </div>
+    
+    <div class="checkbox">
+      <h3>Checkbox</h3>
+      
+      <div class="checkbox__1">
+        <input id="checkbox-1" type="checkbox">
+        <label for="checkbox-1"></label>
+      </div>
+      
+      <div class="checkbox__2">
+        <input id="checkbox-2" type="checkbox" checked>
+        <label for="checkbox-2"></label>
+      </div>
+    </div>
+    
+    <div class="radio">
+      <h3>Radio</h3>
+      
+      <div class="radio__1">
+        <input id="radio-1" type="radio"  name="radio" value="1">
+        <label for="radio-1"></label>
+      </div>
+      
+      <div class="radio__2">
+        <input id="radio-2" type="radio" name="radio" value="2" checked>
+        <label for="radio-2"></label>
+      </div>
+    </div>
+    
+    <div class="btn-box">
+      <h3>Button</h3>
+      <div class="btn btn__primary"><p>Primary</p></div>
+      <div class="btn btn__secondary"><p>Secondary</p></div>
+      <div class="btn btn__outline-1"><p>Outline 1</p></div>
+      <div class="btn btn__primary--disabled">
+        <p>Disabled</p></div>
+      <div class="btn btn__secondary--disabled">
+        <p>Disabled</p></div>
+      <div class="btn btn__outline-2"><p>Outline 2</p></div>
+    </div>
+      
+    <div class="segmented-box">
+      <h3>Segmented control</h3>
+      <div class="segmented-control">
+        <input type="radio" name="radio2" value="3" id="tab-1" checked/>
+        <label for="tab-1" class= "segmented-control__1">
+          <p>Tab 1</p></label>
+        <input type="radio" name="radio2" value="4" id="tab-2" />
+        <label for="tab-2" class= "segmented-control__2">
+          <p>Tab 2</p></label>
+        <input type="radio" name="radio2" value="5" id="tab-3" />
+        <label for="tab-3" class= "segmented-control__3">
+          <p>Tab 3</p></label>
+        <div id="background"></div>
+      </div>
+    </div>
+    
+    <div class="form-box">
+      <div class="form">
+      <h3>Input text</h3>
+      <input type="text" class="form__input" placeholder="Type anything...">
+    </div>
+      <div class="dropdown">
+        <h3>Dropdown</h3>
+        <div class="dropdown__btn">
+          <p>--Select--</p>
+          <div class="dropdown__arrow-box">
+            <ion-icon name="chevron-down-outline" class="dropdown__arrow"></ion-icon>
+            
+          </div>
+        </div>
+        <div class="dropdown__options">
+          <p>Option 1</p>
+          <p>Option 2</p>
+          <p class="dropdown__last">Option 3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="typography">
+    <h2>Typography</h2>
+    <div class="poppins">
+      <h1>Aa</h1>
+      <h3>Poppins</h3>
+      <div class="poppins__header-1">H1 header</div>
+      <div class="poppins__type">Bold 36px</div>
+      <div class="poppins__header-2">H2 header</div>
+      <div class="poppins__type">Semi-bold 24px</div>
+      <div class="poppins__header-3">H3 header</div>
+      <div class="poppins__type">Regular 18px</div>
+    </div>
+    <div class="nunito">
+      <h1>Aa</h1>
+      <h3>Nunito-Sans</h3>
+      <div class="nunito__paragraph-1">Some text for your project</div>
+      <div class="nunito__type">Semi-bold 16px</div>
+      <div class="nunito__paragraph-2">Some text for your project</div>
+      <div class="nunito__type">Regular 16px</div>
+      <div class="nunito__paragraph-3">Some text for your project</div>
+      <div class="nunito__type">Light 16px</div>
+    </div>
+  </section>
+  
+  <section class="alert-box">
+      <h3>Alerts</h3>
+      <div class="alert alert__info">
+        <p>Heads up! It’s chilly out there.</p>
+        <div class="alert__close">
+          <ion-icon name="close"></ion-icon>
+        </div>
+    </div>
+      <div class="alert alert__success">
+        <p>Well done, you’re ready to go out.</p>
+        <div class="alert__close">
+          <ion-icon name="close"></ion-icon>
+        </div>
+    </div>
+      <div class="alert alert__warning">
+        <p>Watch out or you will get the flu soon.</p>
+        <div class="alert__close">
+          <ion-icon name="close"></ion-icon>
+        </div>
+    </div>
+      <div class="alert alert__danger">
+        <p>Oh snap! You’re a bit under the weather.</p>
+        <div class="alert__close">
+          <ion-icon name="close"></ion-icon>
+        </div>
+    </div>
+  </section>
+  <a href="https://dribbble.com/myacode" class="dribbble" target="_blank"><ion-icon name="logo-dribbble"></ion-icon></a>
+</div>
